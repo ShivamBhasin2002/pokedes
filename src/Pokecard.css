@@ -1,0 +1,31 @@
+.pokecard-container{
+    height: 300px;
+    min-width:18%;
+    text-align: center;
+    background: #b4b0b0;
+    margin: 20px 2% 20px 2%;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.pokecard-title{
+    color: blue;
+    font-size: 1.2em;
+}
+
+.pokecard-img{
+    display: block;
+    width: 50%;
+    margin: auto;
+    transition:1s;
+}
+
+.pokecard-img:hover {
+    width: 70%;
+}
+
+.pokedex-info{
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
